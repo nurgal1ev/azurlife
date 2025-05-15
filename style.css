@@ -11,8 +11,9 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
+    padding: 0;
 }
 
 a {
@@ -27,12 +28,11 @@ a {
     margin: 0 auto;
 }
 
+/* header */
 .header {
     background-image: url(assets/images/header-img.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    min-height: 1040px;
 }
 
 .nav {
@@ -64,7 +64,7 @@ a {
     font-size: 15px;
     margin-left: 11px;
     padding-right: 10px;
-    border-right: 1px solid rgba(255, 255, 255, .5);;
+    border-right: 1px solid rgba(255, 255, 255, .5);
 }
 
 .nav__tel {
@@ -86,6 +86,7 @@ a {
 .en, .fr, .ru {
     margin-right: 12px;
 }
+
 .it {
     margin-right: 34px;
 }
@@ -150,4 +151,78 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* azur life block*/
+.azur__life {
+    background-color: #151515;
+}
+
+.azur__title {
+    font-size: 85px;
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    font-weight: 400;
+}
+
+.azur__subtitle {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 55px;
+}
+
+.azur__text {
+    width: 450px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.azur__stats {
+    width: 474px;
+    display: flex;
+    align-items: center;
+}
+
+.stat__block {
+    margin-top: 65px;
+    text-align: center;
+
+}
+
+
+
+.stat__title {
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    font-size: 85px;
+    font-weight: 400;
+}
+
+.stat__subtitle {
+    color: #fff;
+    font-size: 12px;
+    
+}
+
+.stat__line {
+    width: 73px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(35px);
+    padding-right: 28px;
+    padding-left: 12px;
+}
+
+.last {
+    padding-right: 12px;
+}
+
+.azur__link {
+    display: inline-block;
+    padding: 16px 32px;
+    color: #fff;
+    background-color: #262626;
+    border-radius: 7px;
+    margin-top: 45px;
+    margin-bottom: 80px;
 }
