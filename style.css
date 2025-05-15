@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    background-color: #151515;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(assets/images/header-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 1040px;
+}
+
+.nav {
+    padding-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 230px;
+}
+
+.nav__info {
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo {
+    padding-right: 37px;
+    border-right: 1px solid rgba(255, 255, 255, .5);;
+}
+
+.nav__geo {
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.location {
+    color: #fff;
+    font-size: 15px;
+    margin-left: 11px;
+    padding-right: 10px;
+    border-right: 1px solid rgba(255, 255, 255, .5);;
+}
+
+.nav__tel {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.tel {
+    font-size: 15px;
+    padding-left: 4px;
+}
+
+.nav__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.en, .fr, .ru {
+    margin-right: 12px;
+}
+.it {
+    margin-right: 34px;
+}
+
+.button__burger {
+    cursor: pointer;
+    height: 21px;
+    position: relative;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button__burger span {
+    display: block;
+    width: 16px;
+    height: 2px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.header__content {
+    padding-bottom: 240px;
+}
+
+.content__title {
+    font-family: "Playfair Display", serif;
+    font-size: 71px;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.content__subtitle {
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.5;
+    width: 511px;
+}
+
+.content__text {
+    margin-bottom: 43px;
+}
+
+.download__link {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 4px;
+}
+
+.message__link {
+    color: #BE7E00;
+    padding: 16px;
+    background-color: #FFF9EC;
+    border-radius: 7px;
+}
+
+.content__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
