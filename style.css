@@ -226,3 +226,43 @@ a {
     margin-top: 45px;
     margin-bottom: 80px;
 }
+
+.azur__block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.azur__img {
+    margin-top: 52px;
+    display: inline-block;
+}
+
+.azur__inner {
+    margin-top: 144px;
+}
+
+.more {
+    font-size: 15px;
+    border-bottom: 1px solid #fff;
+    float: inline-end;
+    transform: translateX(-50px);
+}
+
+.user__img {
+    position: relative;
+    z-index: 2;
+}
+
+.user__text {
+    position: absolute;
+    color: #fff;
+    transform: translateY(-95px);
+    padding-left: 28px;
+}
+
+.letterA {
+    display: inline;
+    z-index: 1;
+    position: absolute;
+    transform: translateX(290px);
+}
