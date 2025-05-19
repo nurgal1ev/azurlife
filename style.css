@@ -155,6 +155,7 @@ a {
 
 /* azur life block*/
 .azur__life {
+    height: 840px;
     background-color: #151515;
 }
 
@@ -258,11 +259,79 @@ a {
     color: #fff;
     transform: translateY(-95px);
     padding-left: 28px;
+    z-index: 2;
 }
 
 .letterA {
     display: inline;
     z-index: 1;
     position: absolute;
-    transform: translateX(290px);
+    transform: translate(350px, -80px);
+    width: 915px;
+    height: 1013px;
+}
+
+/* available */
+.available {
+    background-color: #101010;
+    padding-top: 113px;
+    min-height: 1090px;
+}
+
+.available__text {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.available__title {
+    font-family: "Playfair Display", serif;
+    font-size: 85px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+
+.all__objects {
+    position: absolute;
+    top: 0;
+    right: -170px;
+    transform: translateY(20px);
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+}
+
+
+/* slider */
+.slider__block {
+    width: 708px;
+    height: 675px;
+}
+
+.slider-block__geo {
+    display: flex;
+    align-items: center;
+}
+
+.slider-block__location {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.slider-block__text {
+    position: relative;
+    padding-top: 53px;
+    padding-left: 48px;
+    padding-bottom: 81px;
+}
+
+.slider-block__img {
+    position: absolute;
+    filter: brightness(90%)
 }
