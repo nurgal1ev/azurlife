@@ -310,6 +310,7 @@ a {
 .slider__block {
     width: 708px;
     height: 675px;
+    margin-top: 63px;
 }
 
 .slider-block__geo {
@@ -325,13 +326,49 @@ a {
 
 
 .slider-block__text {
+    height: 538px;
     position: relative;
     padding-top: 53px;
     padding-left: 48px;
-    padding-bottom: 81px;
+    display: flex;
+    flex-direction: column;
 }
 
 .slider-block__img {
     position: absolute;
-    filter: brightness(90%)
+    filter: brightness(85%)
+}
+
+.sell {
+    display: inline-block;
+    color: #BE7E00;
+    padding: 7px 11px;
+    background-color: #FFF9EC;
+    border-radius: 8px;
+    margin-bottom: 27px;
+}
+
+.slider-block__title {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 23px;
+}
+
+.slider-block__subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    width: 340px;
+}
+
+.selected {
+    position: relative;
+    float: inline-end;
+    transform: translate(-35px, -15px);
+    z-index: 1;
+}
+
+.slider-block__footer {
+    margin-top: 315px;
 }
