@@ -307,25 +307,47 @@ a {
 
 
 /* slider */
-.slider__block {
+.available__slider {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    position: relative;
+}
+
+.slide {
     width: 708px;
     height: 675px;
     margin-top: 63px;
+    margin-right: 159px;
 }
 
-.slider-block__geo {
+.slide.second {
+    background-image: url(assets/images/france2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slide.third {
+    background-image: url(assets/images/france3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 0;
+}
+
+.slide__geo {
     display: flex;
     align-items: center;
 }
 
-.slider-block__location {
+.slide__location {
     color: #fff;
     font-size: 20px;
     margin-left: 10px;
 }
 
 
-.slider-block__text {
+.slide__text {
     height: 538px;
     position: relative;
     padding-top: 53px;
@@ -334,7 +356,7 @@ a {
     flex-direction: column;
 }
 
-.slider-block__img {
+.slide__img {
     position: absolute;
     filter: brightness(85%)
 }
@@ -348,14 +370,14 @@ a {
     margin-bottom: 27px;
 }
 
-.slider-block__title {
+.slide__title {
     font-size: 24px;
     font-weight: 400;
     color: #fff;
     margin-bottom: 23px;
 }
 
-.slider-block__subtitle {
+.slide__subtitle {
     font-size: 14px;
     font-weight: 400;
     color: #fff;
@@ -369,6 +391,29 @@ a {
     z-index: 1;
 }
 
-.slider-block__footer {
+.slide__footer {
     margin-top: 315px;
+}
+
+.slider__buttons {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+}
+
+.prev, .next {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.next {
+    left: 50%; /* Позиционируем относительно центра */
+    transform: translateX(calc(-708px / 2 - 80px)); /* Смещаем влево от центрального слайда */
+}
+
+.prev {
+    right: 50%; /* Позиционируем относительно центра */
+    transform: translateX(calc(708px / 2 + 80px)); /* Смещаем вправо от центрального слайда */
 }
