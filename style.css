@@ -409,11 +409,51 @@ a {
 }
 
 .next {
-    left: 50%; /* Позиционируем относительно центра */
-    transform: translateX(calc(-708px / 2 - 80px)); /* Смещаем влево от центрального слайда */
+    left: 50%;
+    transform: translateX(calc(-708px / 2 - 80px));
 }
 
 .prev {
-    right: 50%; /* Позиционируем относительно центра */
-    transform: translateX(calc(708px / 2 + 80px)); /* Смещаем вправо от центрального слайда */
+    right: 50%;
+    transform: translateX(calc(708px / 2 + 80px));
+}
+
+
+/* office */
+.office {
+    background-image: url(assets/images/officeBG.png);
+    background-repeat: no-repeat;
+    padding-top: 157px;
+    padding-bottom: 127px;
+    color: #fff;
+}
+
+.office__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.office__title {
+    font-family: "Playfair Display", serif;
+    font-size: 84px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.office__geo {
+    display: flex;
+    align-items: center;
+}
+
+.office__info {
+    width: 435px;
+    margin-top: 28px;
+}
+
+.office__link {
+    display: inline-block;
+    margin-top: 157px;
+    padding: 17px 27px;
+    background: rgba(255, 255, 255, 7%);
+    border-radius: 7px;
 }
