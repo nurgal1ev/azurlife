@@ -421,6 +421,7 @@ a {
 
 /* office */
 .office {
+    background: linear-gradient(90deg, rgba(16, 16, 16, 0) 0%, rgba(16, 16, 16, 1) 51%, rgba(16, 16, 16, 1) 72%, rgba(16, 16, 16, 0) 100%);
     background-image: url(assets/images/officeBG.png);
     background-repeat: no-repeat;
     padding-top: 157px;
@@ -456,4 +457,55 @@ a {
     padding: 17px 27px;
     background: rgba(255, 255, 255, 7%);
     border-radius: 7px;
+}
+
+/* management */
+.management {
+    background-color: #101010;
+}
+.management__inner {
+    height: 1090px;
+    padding-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-image: url(assets/icons/&.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.realty__title {
+    font-family: "Playfair Display", serif;
+    font-size: 85px;
+    color: #fff;
+    font-weight: 400;
+    width: 647px;
+    line-height: 1;
+    margin-bottom: 58px;
+}
+
+.realty__info {
+    color: #fff;
+    width: 364px;
+}
+
+
+.concierge__title {
+    font-family: "Playfair Display", serif;
+    font-size: 85px;
+    color: #fff;
+    font-weight: 400;
+    width: 647px;
+    line-height: 1;
+    margin-bottom: 58px;
+}
+
+.concierge__info {
+    color: #fff;
+    width: 364px;
+}
+
+.concierge {
+    padding-bottom: 180px;
 }
